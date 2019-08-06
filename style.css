@@ -12,7 +12,7 @@
 {
 	position: sticky;
 	top: 0;
-	z-index: 10;
+	z-index: 50;
 }
 .navbar
 {
@@ -456,8 +456,6 @@ blockquote
 {
 	padding-top: 50px;
 }
-
-
 #contact
 {
 	background: #efefef;
@@ -468,6 +466,24 @@ blockquote
 .contact-form
 {
 	padding: 15px;
+}
+/*Login or Signup*/
+#login
+{
+	padding-top: 50px;
+}
+#login
+{
+	background: #efefef;
+	padding-top: 0px;
+	padding-bottom: 40px;
+	color: #777;
+}
+.profile:hover
+{
+	box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+	cursor: pointer;
+	transition: 0.5s;
 }
 .form-control
 {
